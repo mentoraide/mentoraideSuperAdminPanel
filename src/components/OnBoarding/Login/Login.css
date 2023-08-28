@@ -1,0 +1,65 @@
+  
+
+.login-form:hover{
+    border-color: #17403B;
+  }
+
+
+  .login-form-forgot {
+    float: right;
+  }
+  .ant-col-rtl .login-form-forgot {
+    float: left;
+  }
+  .login-form-button-1 {
+    background-color: #17403B;
+    box-shadow: none;
+    
+  }
+
+  .login-form-button-2 {
+    color: #17403B;
+    background-color: #FFFFFF;
+    box-shadow: none;
+  }
+
+  .login-form-forgot{
+    color: #17403B;
+    font-weight: 500;
+  }
+
+  input::placeholder{
+    text-align: center;
+  }
+
+  input#normal_login_remember.ant{
+    color: #17403B;
+  }
+
+  input#normal_login_remember.ant-checkbox-input{
+    color: #17403B;
+  }
+
+  button.css-dev-only-do-not-override-17a39f8.ant-btn-primary.login-form-button-1:hover{
+    background-color: white;
+    color: black;
+  }
+
+  button.css-dev-only-do-not-override-17a39f8.ant-btn-primary.login-form-button-2:hover{
+    background-color: white;
+    color: black;
+  }
+
+  a.login-form-forgot:hover{
+    color: #17403B;
+  }
+
+  .login-form .ant-checkbox-inner{
+    background-color: #17403B;
+    border-color: #17403B;
+  }
+
+  .login-form .ant-checkbox-inner:hover{
+    background-color: #17403B !important;
+    border-color: #17403B !important;
+  }
