@@ -4,7 +4,7 @@ import {
     UserOutlined,
 } from '@ant-design/icons';
 import { Breadcrumb, Layout, Menu, Typography, theme } from 'antd';
-import UserTable from '../UserTable/UserTable';
+import UserTable from '../../InputPages/AllUsers/UserTable';
 const { Header, Content, Footer, Sider } = Layout;
 function getItem(label, key, icon, children) {
     return {
@@ -107,7 +107,7 @@ const SideBarAndNavbar = () => {
                             background: colorBgContainer,
                         }}
                     >
-                        {/* <UserTable /> */}
+                        <UserTable />
                     </div>
                 </Content>
                 <Footer
