@@ -1,6 +1,6 @@
 import { Button, Input, Space, Typography, Dropdown } from 'antd'
 import Search from 'antd/es/input/Search'
-import React from 'react'
+
 import './UserTable.css'
 import { QuestionCircleOutlined, SettingOutlined, RedoOutlined, FullscreenOutlined, ColumnHeightOutlined, DownOutlined, PlusOutlined } from '@ant-design/icons'
 import Link from 'antd/es/typography/Link'
