@@ -43,7 +43,7 @@ const TableComponent = () => {
   const [loading, setLoading] = useState(false);
   const start = () => {
     setLoading(true);
-    // ajax request after empty completing
+    // ajax request after empty completing this
     setTimeout(() => {
       setSelectedRowKeys([]);
       setLoading(false);
