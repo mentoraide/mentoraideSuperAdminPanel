@@ -13,7 +13,6 @@ const Topbar = () => {
                     <img className='top-images-1' src={logo} alt="logo" />
                     <img className='top-images-2' src={banner} alt="logo" />
                 </div>
-                {/* <div className='top-text'> */}
                 <Space className='top-end-box' >
                     <SearchOutlined />
                     <QuestionCircleOutlined />
@@ -24,7 +23,6 @@ const Topbar = () => {
                     <span>English</span>
                     <TranslationOutlined style={{ marginRight: '10px' }} />
                 </Space>
-                {/* </div> */}
             </div>
         </>
     )
