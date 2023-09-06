@@ -1,0 +1,51 @@
+.search-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 3% 0px;
+    transition: all 0.3s ease-in-out;
+}
+
+:where(.css-dev-only-do-not-override-17a39f8).ant-btn-primary {
+    background-color: #17403B;
+    color: white;
+    border-radius: 0%;
+}
+:where(.css-dev-only-do-not-override-17a39f8).ant-btn-primary:not(:disabled):not(.ant-btn-disabled):hover {
+    background-color: white;
+    color: black;
+    box-shadow: none;
+    border: 0.5px solid #17403B;
+    border-radius: 0%;
+
+}
+
+:where(.css-dev-only-do-not-override-17a39f8) a {
+    color: #17403B;
+}
+
+.tools-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 3% 0px;
+    transition: all 0.3s ease-in-out;
+}
+
+a:where(.css-dev-only-do-not-override-17a39f8).ant-typography{
+    color: #17403B;
+}
+
+.responsive-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 3% 0px;
+    transition: all 0.3s ease-in-out;
+}
