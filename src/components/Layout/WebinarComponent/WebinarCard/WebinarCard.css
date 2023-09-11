@@ -1,0 +1,129 @@
+.webinar-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 30%;
+  margin: 1rem;
+  margin-bottom: 2rem;
+  border: 1px solid rgba(128, 128, 128, 0.584);
+  border-radius: 7px;
+  background-color: rgb(52, 57, 76);
+  color: white;
+}
+
+.webinar-card-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5px;
+}
+
+.card-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px;
+}
+
+.card-box-up {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 5px;
+}
+.card-box-up h4 {
+  color: rgb(75, 255, 177);
+  margin: 0px;
+}
+
+.card-box h5 {
+  color: #fff;
+  margin: 0px;
+}
+.card-box h4 {
+  color: rgb(75, 255, 177);
+  margin: 0px;
+}
+.card-box span {
+  color: #fff;
+}
+
+.card-time {
+  font-size: 0.7rem;
+  color: #fff;
+  margin-bottom: 0px;
+}
+
+.card-category-title {
+  background-color: rgb(75, 255, 177);
+  padding: 0px 2px;
+  color: rgba(128, 128, 128, 0.584);
+  border: 2px solid rgb(75, 255, 177);
+  border-radius: 3px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.card-mentor-info-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 50%;
+}
+
+.mentor-avatars-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 2px;
+}
+
+.mentor-avatar {
+  width: 50px;
+  height: 50px;
+  border: 1px solid white;
+  margin: 0px 5px;
+}
+
+.webinar-car-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.webinar-car-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.webinar-car-buttons button {
+  width: 100%;
+  /* margin: 5px; */
+  /* padding: 5px; */
+  border: 1px solid rgb(75, 255, 177);
+  border-radius: 3px;
+  background-color: rgb(75, 255, 177);
+  color: rgb(52, 57, 76);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.mentor-avatars-sub-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mentor-name {
+  font-size: 0.7rem;
+}
