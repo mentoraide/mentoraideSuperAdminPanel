@@ -1,0 +1,36 @@
+.screen-six-frame {
+  height: 40vh;
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+.screen-six-frame .overlap {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: white;
+}
+.screen-six-frame .overlap h2 {
+  color: black;
+}
+.screen-six-frame .overlap h2 span {
+  color: #0eb34c;
+}
+
+.screen-six-frame .screen-four-scroll-div {
+  height: 40vh;
+  width: 100%;
+  overflow-x: scroll;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.screen-six-frame .screen-four-scroll-div::-webkit-scrollbar {
+  display: none;
+}

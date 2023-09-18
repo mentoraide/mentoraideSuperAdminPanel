@@ -1,0 +1,26 @@
+.screen-five-section {
+  background-color: rgb(14, 179, 77);
+  min-height: 100vh;
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+
+/* .slider {
+  
+} */
+
+.screen-five-section h2 {
+  color: white;
+}
+.screen-five-section h2 span {
+  color: green;
+}
+
+/* .screen-five-section::-webkit-scrollbar {
+  display: none;
+} */

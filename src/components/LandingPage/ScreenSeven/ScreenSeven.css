@@ -1,0 +1,29 @@
+.screen-seven-section {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: white;
+  margin-top: 5px;
+}
+
+.screen-seven-questions-box {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.dropdown-collapse {
+  min-width: 40%;
+  padding: 20px;
+  margin: 10px;
+}
+
+.dropdown-collapse .collapse {
+  background-color: antiquewhite;
+}
