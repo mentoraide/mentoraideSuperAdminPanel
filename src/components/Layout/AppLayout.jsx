@@ -15,6 +15,7 @@ import {
     Route,
     Routes,
 } from 'react-router-dom';
+import UploadWebinar from './UploadWebinar/UploadWebinar'
 
 
 const AppLayout = () => {
@@ -22,7 +23,7 @@ const AppLayout = () => {
         <>
             <Topbar />
             <Router>
-                <Layout style={{ minHeight: '100vh' }} >
+                <Layout style={{ minHeight: '100vh', background: "white" }} >
 
                     <SideBar />
                     <Routes>
@@ -34,6 +35,7 @@ const AppLayout = () => {
                         <Route path="/workshop" element={<WorkshopComponent />} />
                         <Route path="/webinar" element={<WebinarComponent />} />
                         <Route path="/campus" element={<CampusComponent />} />
+                        <Route path="/uploadWebinar" element={<UploadWebinar />} />
                     </Routes>
                 </Layout>
             </Router>

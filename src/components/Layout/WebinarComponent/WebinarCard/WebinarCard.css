@@ -3,13 +3,21 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-width: 30%;
-  margin: 1rem;
-  margin-bottom: 2rem;
   border: 1px solid rgba(128, 128, 128, 0.584);
   border-radius: 7px;
+  margin-right: 10px;
   background-color: rgb(52, 57, 76);
   color: white;
+}
+
+.webinar-img-container {
+  background-image: url("../../../../assets/WebinarCard.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-width: 25vw;
+  min-height: 25vh;
+  border-radius: 7px 7px 0px 0px;
 }
 
 .webinar-card-box {
@@ -17,6 +25,8 @@
   flex-direction: column;
   justify-content: center;
   margin: 5px;
+  min-width: 25vw;
+  min-height: 25vh;
 }
 
 .card-box {

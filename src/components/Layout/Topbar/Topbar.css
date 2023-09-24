@@ -1,57 +1,56 @@
-.top-bar{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #17403B;
-    color: white;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    top: 0;
-    width: 100%;
-    height: 45px;
-    position: sticky;
-    z-index: 1;
+.top-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #17403b;
+  color: white;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  top: 0;
+  width: 100%;
+  height: 45px;
+  position: sticky;
+  z-index: 100;
 }
 
-.top-images{
-   display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: start;
-    /* justify-content: ; */
-
+.top-images {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  /* justify-content: ; */
 }
 
-.top-images-1{
-    height: 30px;
-    width: 30px;
-    margin-left: 10px;
+.top-images-1 {
+  height: 30px;
+  width: 30px;
+  margin-left: 10px;
 }
 
-.top-images-2{
-    width: 70%;
-    height: 30px;
+.top-images-2 {
+  width: 70%;
+  height: 30px;
 }
 
-.top-end-box{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width: 30%;
+.top-end-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
 }
 
-.top-end-box span{
-    font-size: 1rem;
+.top-end-box span {
+  font-size: 1rem;
 }
 
-:where(.css-dev-only-do-not-override-17a39f8).ant-badge{
-    color: white;
+:where(.css-dev-only-do-not-override-17a39f8).ant-badge {
+  color: white;
 }
 
 @media screen and (max-width: 768px) {
-    .top-end-box{
-        width: 60%;
-    }
+  .top-end-box {
+    width: 60%;
+  }
 }

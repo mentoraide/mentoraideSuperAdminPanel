@@ -17,10 +17,9 @@
   width: 100%;
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
   overflow-x: scroll;
 }
 
 .active-webinar-cards-container::-webkit-scrollbar {
-  display: none;
+  visibility: hidden;
 }
