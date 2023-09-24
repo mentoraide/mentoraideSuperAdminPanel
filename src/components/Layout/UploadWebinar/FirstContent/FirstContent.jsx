@@ -1,5 +1,5 @@
-import { Button, DatePicker, Form, Input, InputNumber, Space, Typography } from 'antd'
-import React from 'react'
+import { DatePicker, Form, Input, Space, Typography } from 'antd'
+import React, { useState } from 'react'
 import './FirstContent.css'
 
 const layout = {
@@ -30,64 +30,55 @@ const onFinish = (values) => {
 };
 
 const FirstContent = () => {
+    const [title, setTitle] = useState('XYZ Webinar');
+    const [host, setHost] = useState('MenorAide');
+    const [duration, setDuration] = useState('4 Hours');
+    const [description, setDescription] = useState(' Lorem Lorem ');
+
     return (
         <>
             <div className="first-content-container">
                 <Typography.Title level={3}>Enter Detaile of the Webinar</Typography.Title>
-                <Form
-                    {...layout}
-                    name="nest-messages"
-                    onFinish={onFinish}
-                    validateMessages={validateMessages}
-                >
-                    <div className="form-upper">
-                        <Form.Item
-                            label="Title :"
-                            rules={[
-                                {
-                                },
-                            ]}
-                        >
-                            <Input />
-                        </Form.Item>
-                        <Form.Item
-                            label="Name of Host : "
-                            rules={[
-                                {
-                                    type: 'email',
-                                },
-                            ]}
-                        >
-                            <Input />
-                        </Form.Item>
-                    </div>
-                    <Space direction='horizontal' >
-                        <Form.Item label="Start Date">
-                            <DatePicker />
-                        </Form.Item>
-                        <Form.Item label="End Date">
-                            <DatePicker />
-                        </Form.Item>
-                    </Space>
-                    <div className="form-bottom">
-                        <Form.Item
-                            label="Duration : "
-                            rules={[
-                                {
-                                    type: 'email',
-                                },
-                            ]}
-                        >
-                            <Input />
-                        </Form.Item>
-                        <Form.Item name={['user', 'website']} label="Website">
-                            <Input />
-                        </Form.Item>
-                        <Form.Item name={['user', 'introduction']} label="Introduction">
-                            <Input.TextArea />
-                        </Form.Item>
-                    </div>
-                </Form>
+                <div className="custom-form-conatiner">
+                    <Form action="">
+                        <div className="input-title-box  input-element-holder">
+                            <div className="input-item">
+                                <input type="text" value={title} onChange={(e) => { setTitle(e.target.value) }} />
+                            </div>
+                            <div className="input-label"><label htmlFor="">Title of the Webinar</label></div>
+                        </div>
+                        <div className="input-host-box input-element-holder">
+                            <div className="input-item">
+                                <input type="text" value={host} onChange={(e) => { setHost(e.target.value) }} />
+                            </div>
+                            <div className="input-label"><label htmlFor="">Name of Host</label></div>
+                        </div>
+                        <div className="input-Date-box input-element-holder">
+                            <div className="start-date-box">
+                                <div className="input-item">
+                                    <DatePicker placeholder='Start Date' />
+                                </div>
+                            </div>
+                            <div className="end-date-box">
+                                <div className="input-item">
+                                    <DatePicker placeholder='End Date' />
+                                </div>
+                            </div>
+                        </div>
+                        <div className="input-host-box input-element-holder">
+                            <div className="input-item">
+                                <input type="text" value={duration} onChange={(e) => { setDuration(e.target.value) }} />
+                            </div>
+                            <div className="input-label"><label htmlFor="">Duration</label></div>
+                        </div>
+                        <div className="input-desc-box input-element-holder">
+                            <div className="input-item">
+                                <textarea name="" id="" cols="30" rows="2" value={description} onChange={(e) => { setDescription(e.target.value) }}></textarea>
+                            </div>
+                            <div className="input-label"><label htmlFor="Description">Description</label></div>
+                        </div>
+                    </Form>
+                </div>
             </div >
 
 

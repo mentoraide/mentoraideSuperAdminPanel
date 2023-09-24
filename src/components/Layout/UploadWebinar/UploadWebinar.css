@@ -41,6 +41,9 @@
   border-color: #17403b;
 }
 
-.action-svg {
-  display: none;
+:where(.css-dev-only-do-not-override-17a39f8).ant-steps
+  .ant-steps-item-finish
+  .ant-steps-item-icon
+  > .ant-steps-icon {
+  color: white;
 }
