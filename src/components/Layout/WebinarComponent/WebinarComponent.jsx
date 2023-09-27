@@ -1,5 +1,5 @@
 import React from 'react';
-import { Breadcrumb, Layout, Typography, theme } from 'antd';
+import { Breadcrumb, Layout, Modal, Typography, theme } from 'antd';
 const { Content, Footer } = Layout;
 import UploadComponent from './UploadComponent/UploadComponent';
 import ActiveWebinarComponent from './ActiveWebinarComponent/ActiveWebinarComponent';
@@ -20,6 +20,7 @@ const breadItems = [
 ];
 
 const WebinarComponent = () => {
+
 
     const {
         token: { colorBgContainer },
@@ -51,8 +52,9 @@ const WebinarComponent = () => {
                             background: colorBgContainer,
                         }}
                     >
-                        {/* <StatsTable /> */}
                         <UploadComponent />
+
+
                         <ActiveWebinarComponent />
                         <CompletedWebinarComponent />
                     </div>

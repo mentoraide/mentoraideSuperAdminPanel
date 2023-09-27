@@ -3,9 +3,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 2rem;
-  padding: 0 20px;
-  min-width: 90%;
+  margin: auto;
+  min-width: 100%;
   z-index: -1;
 }
 
@@ -30,7 +29,7 @@
 }
 
 .input-element-holder {
-  width: 95%;
+  width: 100%;
   border: 0.5px solid rgba(167, 159, 159, 0.388);
   margin: 1rem;
   padding: 1rem;

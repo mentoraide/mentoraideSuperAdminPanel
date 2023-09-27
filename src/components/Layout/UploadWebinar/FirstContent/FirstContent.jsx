@@ -31,7 +31,7 @@ const onFinish = (values) => {
 
 const FirstContent = () => {
     const [title, setTitle] = useState('XYZ Webinar');
-    const [host, setHost] = useState('MenorAide');
+    const [host, setHost] = useState('MentorAide');
     const [duration, setDuration] = useState('4 Hours');
     const [description, setDescription] = useState(' Lorem Lorem ');
 

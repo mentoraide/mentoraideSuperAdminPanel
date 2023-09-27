@@ -23,7 +23,7 @@ const steps = [
 
 
 
-const UploadWebinar = () => {
+const UploadWebinar = (modalCloseProp) => {
     const { token } = theme.useToken();
     const navigate = useNavigate();
     const [current, setCurrent] = useState(0);
@@ -40,14 +40,18 @@ const UploadWebinar = () => {
 
     const handleDoneButton = () => {
         message.success('Processing complete!')
+        modalCloseProp.modalCloseProp(false)
         navigate("/webinar")
     }
 
     return (
         <>
             <div className="steps-conatiner">
-                <Steps current={current} items={items} />
-                <div className='steps-content-box' >{steps[current].content}</div>
+                <Steps current={current} items={items}>
+                </Steps>
+                <div className='steps-content-box' >
+                    {steps[current].content}
+                </div>
                 <div
                     style={{
                     }}
@@ -73,6 +77,7 @@ const UploadWebinar = () => {
                         </Button>
                     )}
                 </div>
+
             </div>
         </>
     );
