@@ -38,7 +38,7 @@ const FirstContent = () => {
     return (
         <>
             <div className="first-content-container">
-                <Typography.Title level={3}>Enter Detaile of the Webinar</Typography.Title>
+                <Typography.Title level={3}>Enter Details of the Webinar</Typography.Title>
                 <div className="custom-form-conatiner">
                     <Form action="">
                         <div className="input-title-box  input-element-holder">

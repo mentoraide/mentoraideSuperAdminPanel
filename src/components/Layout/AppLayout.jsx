@@ -15,6 +15,7 @@ import {
     Route,
     Routes,
 } from 'react-router-dom';
+import InternshipComponent from './InternshipComponent/InternshipComponent'
 
 
 const AppLayout = () => {
@@ -33,6 +34,7 @@ const AppLayout = () => {
                         <Route path="/trainer" element={<TrainerComponent />} />
                         <Route path="/workshop" element={<WorkshopComponent />} />
                         <Route path="/webinar" element={<WebinarComponent />} />
+                        <Route path="/internship" element={<InternshipComponent />} />
                         <Route path="/campus" element={<CampusComponent />} />
                     </Routes>
                 </Layout>

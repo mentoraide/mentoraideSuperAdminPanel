@@ -3,7 +3,7 @@ import React from 'react'
 import './UploadComponent.css'
 import { useNavigate } from 'react-router-dom'
 import { Modal } from 'antd';
-import UploadWebinar from './UploadWebinar/UploadWebinar';
+import UploadInternship from "../UploadInternship/UploadInternship"
 
 
 
@@ -30,15 +30,15 @@ const UploadComponent = () => {
                 }}
                 onOk={() => {
                     setIsModalVisible(false)
-                    navigate('/webinar')
+                    navigate('/internship')
                 }}
                 onCancel={() => {
                     setIsModalVisible(false)
-                    navigate('/webinar')
+                    navigate('/internship')
                 }}
                 footer={null}
             >
-                <UploadWebinar modalCloseProp={setIsModalVisible} />
+                <UploadInternship modalCloseProp={setIsModalVisible} />
             </Modal>
 
         </>

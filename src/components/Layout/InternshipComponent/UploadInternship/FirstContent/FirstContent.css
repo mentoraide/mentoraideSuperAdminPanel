@@ -1,0 +1,35 @@
+.upload-company-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.upload-company-logo h5 {
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin: 0.5rem 0;
+  color: #898585;
+}
+
+.switch-label-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.switch-label-div label {
+  width: 100%;
+  height: 100%;
+}
+
+.active-switch-button {
+  height: 100%;
+}
+
+:where(.css-dev-only-do-not-override-17a39f8).ant-switch.ant-switch-checked {
+  background-color: #17403b !important;
+}
+
+:where(.css-dev-only-do-not-override-17a39f8).ant-switch.ant-switch-checked {
+  background-color: #17403b !important;
+}

@@ -1,0 +1,52 @@
+.second-internship-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0rem;
+  min-width: 100%;
+}
+
+.second-internship-content-container h3 {
+  margin: 1.4rem;
+}
+.second-internship-content-container h5 {
+  margin: 1.4rem;
+}
+
+.second-internship-content-container form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.dynamic-delete-button {
+  position: relative;
+  top: 4px;
+  margin: 0 8px;
+  color: #999;
+  font-size: 24px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.dynamic-delete-button:hover {
+  color: #777;
+}
+.dynamic-delete-button[disabled] {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.input-item textarea {
+  width: 100%;
+}
+.input-item .select-input {
+  width: 100%;
+  margin-top: 6px;
+}
+
+.range-picker-button {
+  min-width: 60%;
+}

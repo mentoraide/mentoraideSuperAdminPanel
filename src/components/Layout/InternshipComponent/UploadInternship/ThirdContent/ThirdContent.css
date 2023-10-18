@@ -1,0 +1,79 @@
+.third-internship-content-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0rem;
+  min-width: 100%;
+}
+
+.third-internship-content-content-container h3 {
+  margin: 1.4rem;
+}
+.third-internship-content-content-container h5 {
+  margin: 1.4rem;
+}
+
+.third-internship-content-content-container form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+.dynamic-delete-button {
+  position: relative;
+  top: 4px;
+  margin: 0 8px;
+  color: #999;
+  font-size: 24px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.dynamic-delete-button:hover {
+  color: #777;
+}
+.dynamic-delete-button[disabled] {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+:where(.css-dev-only-do-not-override-17a39f8).ant-radio-wrapper
+  .ant-radio-checked
+  .ant-radio-inner {
+  border-color: #17403b;
+  background-color: #17403b;
+}
+
+.perk-div {
+  margin-top: 6px;
+}
+
+:where(.css-dev-only-do-not-override-17a39f8).ant-checkbox-checked
+  .ant-checkbox-inner {
+  border-color: #17403b;
+  background-color: #17403b;
+}
+
+:where(.css-dev-only-do-not-override-17a39f8).ant-form
+  input[type="checkbox"]:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+:where(.css-dev-only-do-not-override-17a39f8).ant-checkbox-wrapper:not(
+    .ant-checkbox-wrapper-disabled
+  ):hover
+  .ant-checkbox-checked:not(.ant-checkbox-disabled)
+  .ant-checkbox-inner {
+  border-color: #17403b;
+  background-color: #17403b;
+}
+
+:where(.css-dev-only-do-not-override-17a39f8).ant-checkbox
+  .ant-checkbox-input:focus-visible
+  + .ant-checkbox-inner {
+  box-shadow: none;
+  outline: none;
+}
