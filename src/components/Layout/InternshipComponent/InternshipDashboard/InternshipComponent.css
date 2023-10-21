@@ -1,0 +1,76 @@
+.internship-stats-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 65vh;
+  column-gap: 10px;
+}
+
+.numeric-staus-subcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  column-gap: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.gender-ratio-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 40%;
+  height: 100%;
+  border: 1px solid rgba(123, 130, 133, 0.523);
+  border-radius: 7px;
+}
+
+.pie-chart-container {
+  height: 75%;
+}
+
+.copy-link-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  padding: 10px;
+  width: 100%;
+  column-gap: 20px;
+  margin: 10px;
+  border-radius: 7px;
+}
+
+.internship-stats-container h3 {
+  color: rgb(18, 22, 24);
+}
+.internship-stats-container h4 {
+  color: rgb(18, 22, 24);
+}
+
+.numeric-status-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+  min-height: 100%;
+  border: 1px solid rgba(123, 130, 133, 0.523);
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.numeric-staus-subcontainer div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 45%;
+  height: 100%;
+  background-color: aqua;
+  border-radius: 7px;
+}

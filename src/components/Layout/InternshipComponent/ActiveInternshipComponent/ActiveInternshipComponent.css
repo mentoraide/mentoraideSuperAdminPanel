@@ -1,0 +1,22 @@
+.active-internship-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.active-internship-heading {
+  width: 100%;
+}
+
+.active-internship-table-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+}
+
+.active-internship-table-container::-webkit-scrollbar {
+  visibility: hidden;
+}

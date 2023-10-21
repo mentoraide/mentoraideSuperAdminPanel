@@ -9,6 +9,8 @@ import TrainerComponent from "./TrainerComponent/TrainerComponent"
 import WorkshopComponent from "./WorkshopComponent/WorkshopComponent"
 import WebinarComponent from "./WebinarComponent/WebinarComponent"
 import CampusComponent from "./CampusComponent/CampusComponent"
+import InternshipDashBoard from './InternshipComponent/InternshipDashboard/InternshipDashBoard'
+
 import { Layout } from 'antd';
 import {
     BrowserRouter as Router,
@@ -36,6 +38,7 @@ const AppLayout = () => {
                         <Route path="/webinar" element={<WebinarComponent />} />
                         <Route path="/internship" element={<InternshipComponent />} />
                         <Route path="/campus" element={<CampusComponent />} />
+                        <Route path='/internship-dashboard' element={<InternshipDashBoard />} />
                     </Routes>
                 </Layout>
             </Router>

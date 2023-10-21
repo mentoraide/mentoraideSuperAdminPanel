@@ -1,0 +1,85 @@
+.info-card {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.avatar-info-container {
+  margin: 0rem 1rem;
+}
+
+.info-card-drawer h1 {
+  margin-bottom: -1rem;
+}
+
+.info-card-name {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.info-card-college {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #6c757d;
+}
+
+.info-card-email {
+  font-size: 0.7rem;
+  font-style: italic;
+  font-weight: 400;
+  color: #6c757d;
+}
+
+.info-card-drawer {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  margin: 0rem 1rem;
+  width: 95%;
+  height: 100%;
+}
+
+.info-card-drawer-college {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #6c757d;
+}
+
+.info-card-drawer-email {
+  font-size: 0.7rem;
+  font-style: italic;
+  font-weight: 400;
+  color: #6c757d;
+}
+
+.info-card-drawer-educational-background {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  margin-left: 7rem;
+}
+
+.info-card-drawer-educational-background-course {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #6c757d;
+}
+
+.info-card-drawer-educational-background-year {
+  font-size: 0.7rem;
+  font-style: italic;
+  font-weight: 400;
+  color: #6c757d;
+}
+
+.info-card-drawer-resume {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  margin-top: 1rem;
+  width: 100%;
+  height: 100%;
+}

@@ -2,6 +2,8 @@ import React from 'react';
 import { Breadcrumb, Layout, Modal, Typography, theme } from 'antd';
 const { Content, Footer } = Layout;
 import UploadComponent from './UploadComponent/UploadComponent';
+import ActiveInternshipComponent from './ActiveInternshipComponent/ActiveInternshipComponent';
+import CompletedInternshipComponent from './CompletedInternshipComponent/CompletedInternshipComponent.jsx';
 
 
 const breadItems = [
@@ -51,6 +53,8 @@ const InternshipComponent = () => {
                         }}
                     >
                         <UploadComponent />
+                        <ActiveInternshipComponent />
+                        <CompletedInternshipComponent />
                     </div>
                 </Content>
                 <Footer

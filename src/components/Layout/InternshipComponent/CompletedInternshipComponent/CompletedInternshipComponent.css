@@ -1,0 +1,21 @@
+.completed-internship-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.completed-internship-heading {
+  width: 100%;
+}
+
+.completed-internship-table-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+}
+
+.completed-internship-table-container::-webkit-scrollbar {
+  visibility: hidden;
+}

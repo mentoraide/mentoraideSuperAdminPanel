@@ -53,8 +53,6 @@ const WebinarComponent = () => {
                         }}
                     >
                         <UploadComponent />
-
-
                         <ActiveWebinarComponent />
                         <CompletedWebinarComponent />
                     </div>
